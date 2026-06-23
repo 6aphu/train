@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вход</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="train">
+                <a href="index.html">TRAIN</a>
+            </div>
+
+            <ul>
+                <li><a href="index.html">ГЛАВНАЯ</a></li>
+                <li><a href="#">РАСПИСАНИЕ</a></li>
+                <li><a href="subscriptions.html">АБОНЕМЕНТЫ</a></li>
+                <li><a href="#">ТРЕНЕРЫ</a></li>
+                <li><a href="#">О НАС</a></li>
+                <li><a href="#">КОНТАКТЫ</a></li>
+            </ul>
+
+            <div class="voiti">
+                <a href="login.html">Войти</a>
+            </div>
+
+            <button id="themeBtn">
+                🝰
+            </button>
+        </nav>
+    </header>
+
+    <main class="login-main">
+
+        <section class="login-section">
+
+            <h1>Войдите в аккаунт</h1>
+
+<form id="loginForm">
+    <input type="email" id="login" placeholder="Email" required>
+    <input type="password" id="password" placeholder="Пароль" required>
+    <button type="submit">Войти</button>
+</form>
+<div id="loginError" style="color: red; margin-top: 10px; font-weight: bold;"></div>
+
+            <p>
+                Нет аккаунта?
+                <a href="register.html">Регистрация</a>
+            </p>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-content">
+
+            <div>
+                <h3>TRAIN</h3>
+                <p>Мы помогаем становиться лучше каждый день.</p>
+            </div>
+
+            <div>
+                <h3>Навигация</h3>
+
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="#">Расписание</a></li>
+                    <li><a href="subscriptions.html">Абонементы</a></li>
+                    <li><a href="#">Тренеры</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>Контакты</h3>
+
+                <p>+7 (777) 123-45-67</p>
+                <p>г. Петропавловск, ул. Медведева 1б</p>
+                <p>train@gmail.com</p>
+            </div>
+
+            <div>
+                <h3>Мы в социальных сетях</h3>
+
+
+                <a href="#"><img src="images/vk.png" alt="vk"></a>
+                <a href="#"><img src="images/inst.png" alt="inst"></a>
+                <a href="#"><img src="images/tg.png" alt="tg"></a>
+            </div>
+
+        </div>
+    </footer>
+
+    <div class="copyright">
+        © 2026 TRAIN. Все права защищены.
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
