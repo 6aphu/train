@@ -1,4 +1,4 @@
-fetch("http://localhost:3000/api/subscriptions")
+fetch("https://train-ed9m.onrender.com/api/subscriptions")
     .then(response => response.json())
     .then(data => {
 
